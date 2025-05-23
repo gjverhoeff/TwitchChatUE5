@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.9.1",
+	"FriendlyName": "Twitch Chat",
+	"Description": "Receive Twitch Chat from any channel straight into the editor",
+	"Category": "Broadcast",
+	"CreatedBy": "Sumatras Studios",
+	"CreatedByURL": "http://www.geertverhoeff.com",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Modules": [
+		{
+			"Name": "TwitchChat",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AnimatedTexture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AnimatedTextureEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Text3D",
+			"Enabled": true
+		}
+	],
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"Installed": false
+}
